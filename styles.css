@@ -8,7 +8,7 @@
 .container {
     width: 100%;
     height: 100vh;
-    background: #333;
+    background: #4a0000;
     justify-content: center;
     display: flex;
     align-items: center;
@@ -17,7 +17,8 @@
 }
 
 .music-player{
-    width: 400px;
+    width: 1000px;
+    height: 400px;
     padding: 25px 35px;
     text-align: center;
     background: #ffe0e5;
@@ -42,32 +43,38 @@ nav .circle {
 
 .song-img {
     border-radius: 50%;
-    width: 220px;
+    width: 180px;
     border: 8px solid #fff;
     box-shadow: 0 10px 60px rgba(255, 26, 26, 0.22);
+    margin-right: 900px;
+    
 }
 
 .music-player h1{
     font-size: 20px;
     font-weight: 400;
     color: #333;
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-right: 750px;
 }
 
 .music-player p{
     font-size: 14px;
     color: #333;
+    margin-right: 750px;
   
 }
 
 #progress {
     -webkit-appearance: none;
-    width: 100%;
+    width: 60%;
     height: 6px;
     background:#f53192;
     border-radius: 4px;
     cursor: pointer;
-    margin: 40px 0;
+    margin-top: -140px;
+    margin-left: 280px;
+    display: flex;
 }
 
 #progress::-webkit-slider-thumb {
@@ -77,12 +84,16 @@ nav .circle {
     height: 30px;
     border-radius: 50%;
     border:8px solid #fff;
+   
 }
 
 .controls {
     display: flex;
     justify-content: center;
     align-items: center;
+    
+    margin-left: 200px;
+
 }
 
 .controls div{
@@ -97,6 +108,7 @@ nav .circle {
     color: #f53192;
     box-shadow: 0 10px 20px rgba(255, 26, 26, 0.22);
     cursor: pointer;
+   
 }
 
 .controls div:nth-child(2) {
