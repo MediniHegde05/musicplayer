@@ -18,7 +18,7 @@
 
 .music-player{
     width: 1000px;
-    height: 400px;
+    height: 300px;
     padding: 25px 35px;
     text-align: center;
     background: #ffe0e5;
@@ -43,10 +43,10 @@ nav .circle {
 
 .song-img {
     border-radius: 50%;
-    width: 180px;
+    width: 130px;
     border: 8px solid #fff;
     box-shadow: 0 10px 60px rgba(255, 26, 26, 0.22);
-    margin-right: 900px;
+    margin-right: 700px;
     
 }
 
@@ -55,13 +55,13 @@ nav .circle {
     font-weight: 400;
     color: #333;
     margin-top: 10px;
-    margin-right: 750px;
+    margin-right: 700px;
 }
 
 .music-player p{
     font-size: 14px;
     color: #333;
-    margin-right: 750px;
+    margin-right: 700px;
   
 }
 
@@ -85,14 +85,16 @@ nav .circle {
     border-radius: 50%;
     border:8px solid #fff;
    
+   
 }
 
 .controls {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    padding: 10px;
     margin-left: 200px;
+    margin-top: 30px;
 
 }
 
